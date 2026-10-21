@@ -19,6 +19,14 @@ public class StudentInformationSystem {
         
         System.out.println("Total Mark: " + totalMark);
         
+        if (totalMark >= 80){
+            System.out.println("Result: Excellent");
+        }else if (totalMark >= 60){
+            System.out.println("Result: Good");
+        }else{
+            System.out.println("Result: Need Improvement");
+        }
+        
         
     }
     
