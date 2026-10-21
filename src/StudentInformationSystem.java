@@ -7,8 +7,19 @@
 public class StudentInformationSystem {
 
     public static void main(String[] args) {
+        // Display student name and student id
         System.out.println("Name: Nur Syazwani binti Saziri");
         System.out.println("Student ID: S87414");
+        
+        // Store two marks using varibles
+        double mark1 = 45.5;
+        double mark2 = 41.5;
+        
+        double totalMark = mark1 + mark2;
+        
+        System.out.println("Total Mark: " + totalMark);
+        
+        
     }
     
 }
